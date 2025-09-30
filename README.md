@@ -4,7 +4,7 @@ Diese Bibliothek stellt strukturierte Sammlungen von BSI-Sicherheitsvorschriften
 
 ## 📁 Für Anwender
 
-Sie sind in einer Institution mit der Informationssicherheit betraut oder auditieren diese und möchten die Inhalt des BSI dafür nutzen?
+Sie sind in einer Institution mit der Informationssicherheit betraut oder auditieren diese und möchten die Inhalte des BSI dafür nutzen?
 
 **→ Besuchen Sie das [Kompendien](./Kompendien/) Verzeichnis**
  
