@@ -12,7 +12,7 @@ Diese Anleitung zeigt Ihnen, wie Sie die bereitgestellten OSCAL-Dateien (im JSON
 
 Sie können die OSCAL-Dateien direkt von diesem GitHub-Repository herunterladen. Die Dateien liegen in den Formaten **JSON** (`.json`) und **XML** (`.xml`) vor.
 
-1.  **Wählen Sie ein Dateiformaz aus:** Die Dateien werden in den Formaten json und xml bereitgestellt. Klicken Sie auf die gewünschte Datei links im Verzeichnisbaum.
+1.  **Wählen Sie ein Dateiformat aus:** Die Dateien werden in den Formaten json und xml bereitgestellt. Klicken Sie auf die gewünschte Datei links im Verzeichnisbaum.
 2.  **Laden Sie die Rohfassung herunter:** Klicken Sie auf der sich öffnenden Seite auf den Button **"Raw"**. Klicken Sie anschließend mit der rechten Maustaste in das Browserfenster und wählen Sie "Speichern unter...", um die Datei lokal auf Ihrem Computer zu sichern.
 
 -----
