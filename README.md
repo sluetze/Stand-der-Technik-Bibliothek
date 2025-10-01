@@ -16,7 +16,7 @@ Sie arbeiten gemeinsam mit dem BSI an der Entwicklung von Vorschriften und möch
 
 **→ Besuchen Sie das [Quellkataloge](./Quellkataloge/) Verzeichnis**
 
-Hier finden Sie die maschinenlesbaren Quelldaten für die Erstellung und Bearbeitung von Sicherheitsvorschriften in den Formaten json und xlsx.
+Hier finden Sie die maschinenlesbaren Quelldaten für die Erstellung und Bearbeitung von Sicherheitsvorschriften in den Formaten json und xml.
 
 
 ## 🚀 Erste Schritte
