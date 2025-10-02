@@ -1,4 +1,4 @@
-# Pilotierung IT-Grundschutz++
+# Pilotierung Grundschutz++
 
 Der **Grundschutz++** ist eine umfassende Überarbeitung des bisherigen IT-Grundschutzes des Bundesamtes für Sicherheit in der Informationstechnik (BSI). Ziel dieser Weiterentwicklung ist es, die Inhalte zu modernisieren und den Aufwand für die Umsetzung eines Informationssicherheitsmanagementsystems (ISMS) zu reduzieren—insbesondere durch die Automatisierung wesentlicher Prozesse. 
 
