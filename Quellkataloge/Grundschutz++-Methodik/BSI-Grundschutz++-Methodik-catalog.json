@@ -4866,7 +4866,7 @@
             ],
             "controls": [
               {
-                "id": "PERF.3.1",
+                "id": "PERF.2.1",
                 "title": "Aufbau und Pflege eines Auditprogramms",
                 "class": "normal-SdT",
                 "props": [
@@ -4882,7 +4882,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.3.1_stm",
+                    "id": "PERF.2.1_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -4904,14 +4904,14 @@
                     "prose": "Monitoring-Evaluation MUSS ein Verfahren zum Aufbau und zur Pflege eines oder mehrerer Auditprogramme verankern."
                   },
                   {
-                    "id": "PERF.3.1_gdn",
+                    "id": "PERF.2.1_gdn",
                     "name": "guidance",
                     "prose": "Ein Audit kann in unterschiedlichen Formen durchgeführt werden – beispielsweise als internes Audit durch eigene Mitarbeitende, als externes Audit durch unabhängige Dritte (z. B. für Zertifizierungen), als Überwachungs- oder Wiederholungsaudit, oder als Sonderaudit bei Sicherheitsvorfällen. Ziel ist es, die Einhaltung von Sicherheitsanforderungen, die Wirksamkeit von Maßnahmen sowie mögliche Schwachstellen zu prüfen."
                   }
                 ],
                 "controls": [
                   {
-                    "id": "PERF.3.1.1",
+                    "id": "PERF.2.1.1",
                     "title": "Erstellen eines Auditsplans",
                     "class": "normal-SdT",
                     "props": [
@@ -4927,7 +4927,7 @@
                     ],
                     "parts": [
                       {
-                        "id": "PERF.3.1.1_stm",
+                        "id": "PERF.2.1.1_stm",
                         "name": "statement",
                         "props": [
                           {
@@ -4949,7 +4949,7 @@
                         "prose": "Monitoring-Evaluation SOLLTE für jedes durchzuführende Audit einen Auditplan dokumentieren."
                       },
                       {
-                        "id": "PERF.3.1.1_gdn",
+                        "id": "PERF.2.1.1_gdn",
                         "name": "guidance",
                         "prose": "Der Auditplan (audit plan) legt vorab die Ziele, den Umfang (Geltungsbereich, Zielobjekte), die Methoden (Auditkriterien), Rollen und Zuständigkeiten, sowie den genauen Ablauf dieser Überprüfung fest. Auditmethoden sind die spezifischen Vorgehensweisen und Techniken, die ein Auditor zur Sammlung und Bewertung von Prüfungsnachweisen (audit evidence) einsetzt. Die Auswahl der Methode hängt vom jeweiligen Prüfziel ab und umfasst häufig eine Kombination aus mehreren Ansätzen, wie zum Beispiel: (1) die Befragung von Mitarbeitern (Interviews), um Prozessabläufe und Verantwortlichkeiten zu verstehen, (2) die (automatisierte und manuelle) Durchsicht von Dokumenten wie Richtlinien, Konzepten und Protokollen zur Überprüfung der Vorgabenkonformität, (3) die direkte Beobachtung von Prozessen, um die tatsächliche Umsetzung einer Kontrolle zu verifizieren, sowie (4) technische Analysen, welche die Überprüfung von Systemkonfigurationen, die Auswertung von Logdateien oder die Durchführung von Stichproben bei Berechtigungen beinhalten können. Der Zweck dieser Anforderung ist es, eine strukturierte und nachvollziehbare Vorgehensweise bei jeder Prüfung zu gewährleisten. Ohne einen solchen Plan könnte eine Überprüfung chaotisch verlaufen, wichtige Bereiche übersehen oder Ressourcen ineffizient eingesetzt werden, was unentdeckte Schwachstellen zur Folge haben kann. Ein detaillierter Auditplan kann hingegen sicherstellen, dass alle relevanten Aspekte systematisch abgedeckt werden und schafft eine klare Erwartungshaltung sowie Verbindlichkeit für die Auditoren und die geprüften Stellen der Institution. Bewährt hat sich dabei eine chancen- und risikenorientierte Ressourcenverteilung, d.h. die Betrachtung genau jener Anforderungen, bei denen voraussichtlich ein hoher Mehrwert für die Risikoanalyse durch das Audit zu erwarten ist. Für Details siehe ISO/IEC 19011-Reihe."
                       }
@@ -4958,7 +4958,7 @@
                 ]
               },
               {
-                "id": "PERF.3.2",
+                "id": "PERF.2.2",
                 "title": "Planen von internen Audits",
                 "class": "normal-SdT",
                 "props": [
@@ -4979,7 +4979,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.3.2_stm",
+                    "id": "PERF.2.2_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5006,14 +5006,14 @@
                     "prose": "Monitoring-Evaluation MUSS im Auditprogramm die Planung der internen Audits risikoorientiert dokumentieren."
                   },
                   {
-                    "id": "PERF.3.2_gdn",
+                    "id": "PERF.2.2_gdn",
                     "name": "guidance",
                     "prose": "Ziel ist es, die Einhaltung von Sicherheitsanforderungen, die Wirksamkeit von Maßnahmen sowie mögliche Schwachstellen zu prüfen. Es muss die Effektivität und Effizienz aller angewandten Anforderungen sinnvoll geprüft werden."
                   }
                 ]
               },
               {
-                "id": "PERF.3.3",
+                "id": "PERF.2.3",
                 "title": "Auswahl des Auditteams",
                 "class": "normal-SdT",
                 "props": [
@@ -5029,7 +5029,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.3.3_stm",
+                    "id": "PERF.2.3_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5051,14 +5051,14 @@
                     "prose": "Monitoring-Evaluation MUSS ein Verfahren zur Auswahl von fachlich geeigneten und unabhängigen Auditoren verankern."
                   },
                   {
-                    "id": "PERF.3.3_gdn",
+                    "id": "PERF.2.3_gdn",
                     "name": "guidance",
                     "prose": "Bei der Auswahl von Auditoren SOLLn insbesondere Fachkompetenz, Unabhängigkeit und Erfahrung berücksichtigt werden. Das Team muss über technisches und organisatorisches Wissen, Kenntnisse relevanter Normen und gesetzliche Anfoderungen sowie die Fähigkeit zur objektiven, methodischen Bewertung verfügen, ohne in die zu prüfenden Prozesse direkt involviert zu sein."
                   }
                 ]
               },
               {
-                "id": "PERF.3.4",
+                "id": "PERF.2.4",
                 "title": "Umfang von Audits",
                 "class": "normal-SdT",
                 "props": [
@@ -5074,7 +5074,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.3.4_stm",
+                    "id": "PERF.2.4_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5096,14 +5096,14 @@
                     "prose": "Monitoring-Evaluation MUSS in angemessenem Umfang Audits verankern."
                   },
                   {
-                    "id": "PERF.3.4_gdn",
+                    "id": "PERF.2.4_gdn",
                     "name": "guidance",
                     "prose": "Der Umfang eines Audits beschreibt, was, wie und in welchem Rahmen geprüft wird. Dazu gehören der organisatorische und technische Geltungsbereich (z. B. Standorte, Abteilungen, IT-Systeme), der Prüfzeitraum,  sowie die eingesetzten Prüfmethoden wie Interviews, Dokumentensichtung oder Systemtests. Der Auditumfang wird vor Beginn des Audits klar definiert, um den Ablauf gezielt zu planen und die Ergebnisse nachvollziehbar zu dokumentieren."
                   }
                 ]
               },
               {
-                "id": "PERF.3.5",
+                "id": "PERF.2.5",
                 "title": "Erstellen von Auditberichten",
                 "class": "normal-SdT",
                 "props": [
@@ -5119,7 +5119,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.3.5_stm",
+                    "id": "PERF.2.5_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5141,14 +5141,14 @@
                     "prose": "Monitoring-Evaluation MUSS Auditergebnisse in Berichten dokumentieren."
                   },
                   {
-                    "id": "PERF.3.5_gdn",
+                    "id": "PERF.2.5_gdn",
                     "name": "guidance",
                     "prose": "Ein Auditbericht muss nachvollziehbar, vollständig und strukturiert dokumentieren, wie das Audit durchgeführt wurde und welche Ergebnisse erzielt wurden. Er enthält Angaben zum Auditziel, Auditumfang, Auditteam, Auditmethoden, den bewerteten Bereichen sowie eine übersichtliche Darstellung der Feststellungen inklusive Abweichungen, Verbesserungspotenzialen und der Bewertung der Wirksamkeit der umgesetzten Sicherheitsmaßnahmen."
                   }
                 ],
                 "controls": [
                   {
-                    "id": "PERF.3.5.1",
+                    "id": "PERF.2.5.1",
                     "title": "Einheitliches Bewertungsschema",
                     "class": "normal-SdT",
                     "props": [
@@ -5164,7 +5164,7 @@
                     ],
                     "parts": [
                       {
-                        "id": "PERF.3.5.1_stm",
+                        "id": "PERF.2.5.1_stm",
                         "name": "statement",
                         "props": [
                           {
@@ -5186,7 +5186,7 @@
                         "prose": "Monitoring-Evaluation SOLLTE für Feststellungen in Audits ein einheitliches Bewertungsschema verankern."
                       },
                       {
-                        "id": "PERF.3.5.1_gdn",
+                        "id": "PERF.2.5.1_gdn",
                         "name": "guidance",
                         "prose": "Das Bewertungsschema soll die einheitliche Bewertung und die Vergleichbarkeit von Auditergebnissen sicherstellen."
                       }
@@ -5211,7 +5211,7 @@
             ],
             "controls": [
               {
-                "id": "PERF.4.1",
+                "id": "PERF.3.1",
                 "title": "Eignungsprüfung",
                 "class": "normal-SdT",
                 "props": [
@@ -5227,7 +5227,7 @@
                 ],
                 "params": [
                   {
-                    "id": "perf.4.1-prm1",
+                    "id": "perf.3.1-prm1",
                     "label": "regelmäßig",
                     "props": [
                       {
@@ -5239,7 +5239,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.1_stm",
+                    "id": "PERF.3.1_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5266,14 +5266,14 @@
                     "prose": "Monitoring-Evaluation MUSS das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit {{ insert: param, perf.4.1-prm1 }} sowie anlassbezogen überprüfen."
                   },
                   {
-                    "id": "PERF.4.1_gdn",
+                    "id": "PERF.3.1_gdn",
                     "name": "guidance",
                     "prose": "Damit die Institutionsleitung fundierte Entscheidungen zur Steuerung des Informationssicherheitsprozesses treffen kann, ist ein prägnanter Managementbericht erforderlich. Darin werden die wesentlichen Eckpunkte zum Stand der Informationssicherheit übersichtlich aufbereitet. Der Bericht SOLL: kurz, klar und verständlich sein, relevante Informationen bzw. Entwicklungen enthalten, nicht überfrachtet sein d.h. den Fokus auf das Wesentliche legen. So kann die Leitung gezielt Maßnahmen priorisieren und Ressourcen effektiv einsetzen. Es muss unter anderem deutlich werden, ob der beabsichtigte Sicherheitszweck wirksam erfüllt wird."
                   }
                 ]
               },
               {
-                "id": "PERF.4.2",
+                "id": "PERF.3.2",
                 "title": "Ergebnisse von Folgemaßnahmen",
                 "class": "normal-SdT",
                 "props": [
@@ -5294,7 +5294,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.2_stm",
+                    "id": "PERF.3.2_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5321,14 +5321,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der den Status von Folgemaßnahmen vorangegangener Managementbewertungen enthält, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.2_gdn",
+                    "id": "PERF.3.2_gdn",
                     "name": "guidance",
                     "prose": "Die Evaluierung von Folgemaßnahmen früherer Managementbewertungen dient der Prüfung, ob geplante Maßnahmen umgesetzt und ihre Ziele erreicht wurden. Dabei müssen Status, Wirksamkeit und mögliche Abweichungen nachvollziehbar dokumentiert und in die aktuelle Managementbewertung eingebunden werden. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.3",
+                "id": "PERF.3.3",
                 "title": "Geänderte Rahmenbedingungen",
                 "class": "normal-SdT",
                 "props": [
@@ -5349,7 +5349,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.3_stm",
+                    "id": "PERF.3.3_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5376,14 +5376,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der geänderte Rahmenbedingungen mit Auswirkungen auf das Informationssicherheitsmanagement berücksichtigt, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.3_gdn",
+                    "id": "PERF.3.3_gdn",
                     "name": "guidance",
                     "prose": "Die Ergebnisse der Überprüfung der Rahmenbedingungen – wie rechtliche, organisatorische, technische oder wirtschaftliche Veränderungen – müssen systematisch erfasst und auf ihre Auswirkungen auf das ISMS bewertet werden. Relevante Änderungen sind in der Managementbewertung einzubeziehen, da sie Einfluss auf die Risikobewertung und erforderliche Anforderungen bzw. Sicherheitsmaßnahmen haben können. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.4",
+                "id": "PERF.3.4",
                 "title": "Erfolge und Probleme",
                 "class": "normal-SdT",
                 "props": [
@@ -5404,7 +5404,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.4_stm",
+                    "id": "PERF.3.4_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5431,14 +5431,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der bisherige Erfolge und Probleme (z. B. Sicherheitsvorfälle) beim Informationssicherheitsprozess berücksichtigt, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.4_gdn",
+                    "id": "PERF.3.4_gdn",
                     "name": "guidance",
                     "prose": "Die Ergebnisse müssen im ISMS-Prozess berücksichtigt werden, um daraus gezielte Verbesserungen abzuleiten. Sie dienen als wichtige Eingaben für die Managementbewertung und unterstützen die Weiterentwicklung der Sicherheitsstrategie. Zu Erfolgen zählen z.B. wirksam umgesetzte Maßnahmen, erreichte Sicherheitsziele, erfolgreiche Audits/Prüfungen oder eine nachweisbare Reduktion von Risiken. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.5",
+                "id": "PERF.3.5",
                 "title": "interne Überprüfungen und Audits",
                 "class": "normal-SdT",
                 "props": [
@@ -5459,7 +5459,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.5_stm",
+                    "id": "PERF.3.5_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5486,14 +5486,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der Ergebnisse interner Überprüfungen und Audits enthält, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.5_gdn",
+                    "id": "PERF.3.5_gdn",
                     "name": "guidance",
                     "prose": "Bei der Evaluierung müssen die Ergebnisse interner Überprüfungen und Audits dokumentiert werden, um festzustellen, ob das ISMS wirksam umgesetzt und aufrechterhalten wird. Dabei sind insbesondere identifizierte Abweichungen, Verbesserungspotenziale und umgesetzte Korrekturmaßnahmen nachvollziehbar darzustellen. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.6",
+                "id": "PERF.3.6",
                 "title": "Eignungsprüfung bisheriger Sicherheitsmaßnahmen",
                 "class": "normal-SdT",
                 "props": [
@@ -5514,7 +5514,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.6_stm",
+                    "id": "PERF.3.6_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5541,14 +5541,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der eine Bewertung enthält, ob sich die Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele als geeignet erwiesen haben oder ob Maßnahmen geändert oder ergänzt werden müssen, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.6_gdn",
+                    "id": "PERF.3.6_gdn",
                     "name": "guidance",
                     "prose": "Zur Bewertung, ob Sicherheitsmaßnahmen zur Erreichung der Sicherheitsziele geeignet sind, müssen die Maßnahmen systematisch den jeweiligen Zielen zugeordnet und ihre Wirksamkeit anhand konkreter Nachweise (z.B. Auditergebnisse, Vorfallanalysen, Tests) überprüft werden. Werden Defizite festgestellt, sind die Maßnahmen entsprechend anzupassen, zu ergänzen oder durch geeignetere zu ersetzen. Die Ergebnisse dieser Überprüfung sind nachvollziehbar zu dokumentieren und in den Managementbericht einzubringen und basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.7",
+                "id": "PERF.3.7",
                 "title": "Rückmeldung von Stakeholdern",
                 "class": "normal-SdT",
                 "props": [
@@ -5569,7 +5569,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.7_stm",
+                    "id": "PERF.3.7_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5596,14 +5596,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der Rückmeldungen von Kunden, Geschäftspartnern, Mitarbeitern oder der Öffentlichkeit zu Sicherheitsaspekten  bei der Bewertung berücksichtigt, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.7_gdn",
+                    "id": "PERF.3.7_gdn",
                     "name": "guidance",
                     "prose": "Betroffene Personen wie z.B. Kunden, Geschäftspartner und die Öffentlichkeit SOLLn aktiv zu Sicherheitsaspekten befragt oder deren Feedback systematisch erfasst werden, z.B. über Umfragen, Beschwerden, Supportanfragen oder öffentliche Bewertungen. Dieses Feedback ist auf Relevanz und Auswirkungen für das ISMS zu prüfen, zu dokumentieren und bei Bedarf in Risikoanalysen und Verbesserungsmaßnahmen einzubeziehen. Verantwortliche müssen sicherstellen, dass Rückmeldungen zeitnah ausgewertet und bei der Weiterentwicklung der Sicherheitsmaßnahmen berücksichtigt werden. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.8",
+                "id": "PERF.3.8",
                 "title": "Status des Realisierungsplans",
                 "class": "normal-SdT",
                 "props": [
@@ -5624,7 +5624,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.8_stm",
+                    "id": "PERF.3.8_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5651,14 +5651,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der Berichte über die Reduzierung bestehender Umsetzungsdefizite und der damit verbundenen Risiken (Status des Realisierungsplans) dokumentieren."
                   },
                   {
-                    "id": "PERF.4.8_gdn",
+                    "id": "PERF.3.8_gdn",
                     "name": "guidance",
                     "prose": "Die Überprüfung von Umsetzungsdefiziten und Risiken ist im ISMS ein zentraler Bestandteil des Monitorings und der Evaluierung. Monitoring sorgt für die kontinuierliche Beobachtung des Fortschritts bei Maßnahmenumsetzung, während die Evaluierung die Wirksamkeit dieser Maßnahmen bewertet und bei Bedarf Anpassungen empfiehlt. So wird sichergestellt, dass Risiken nachhaltig reduziert und Sicherheitsziele erreicht werden. D. h. der Status des Realisierungsplans muss fortlaufend überprüft werden. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.9",
+                "id": "PERF.3.9",
                 "title": "Verbesserungen",
                 "class": "normal-SdT",
                 "props": [
@@ -5679,7 +5679,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.9_stm",
+                    "id": "PERF.3.9_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5706,14 +5706,14 @@
                     "prose": "Monitoring-Evaluation SOLLTE die Ergebnisse dieser Überprüfungen in einem Managementbericht, der die Ergebnisse der Bewertung in Form von Verbesserungen in das ISMS einfließen lässt, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.9_gdn",
+                    "id": "PERF.3.9_gdn",
                     "name": "guidance",
                     "prose": "Hier ist zu dokumentieren, 1. ob identifizierte Verbesserungsmaßnahmen tatsächlich umgesetzt wurden (z.B. Änderungen an Prozessen, technische Anpassungen, Schulungen). 2. in welcher Form diese Maßnahmen ins ISMS eingeflossen sind, also ob sie dokumentiert, im Risikomanagement berücksichtigt und in den Steuerungsprozessen verankert wurden. 3. ob die Verbesserungen die angestrebte Wirkung zeigen, also zur Reduzierung von Risiken oder zur Erreichung der Sicherheitsziele beitragen. 4. ob die Maßnahmen dauerhaft aufrechterhalten und kontinuierlich überwacht werden, um nachhaltige Verbesserungen sicherzustellen. Die Ergebnisse dieser Evaluierung sind nachvollziehbar zu dokumentieren und bilden die Grundlage für weitere Entscheidungen im Rahmen des kontinuierlichen Verbesserungsprozesses und basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.10",
+                "id": "PERF.3.10",
                 "title": "Maßnahmenvorschläge",
                 "class": "normal-SdT",
                 "props": [
@@ -5734,7 +5734,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.10_stm",
+                    "id": "PERF.3.10_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5761,14 +5761,14 @@
                     "prose": "Monitoring-Evaluation MUSS die Ergebnisse dieser Überprüfungen in einem Managementbericht, der priorisierte Maßnahmenvorschläge mit realistischen Abschätzungen zum erwarteten Umsetzungsaufwand enthält, dokumentieren."
                   },
                   {
-                    "id": "PERF.4.10_gdn",
+                    "id": "PERF.3.10_gdn",
                     "name": "guidance",
                     "prose": "Maßnahmenvorschläge müssen daraufhin überprüft werden, ob sie wirksam zur Risikoreduktion beitragen und mit vertretbarem Aufwand umsetzbar sind. Dabei sind Nutzen, Kosten, technischer und organisatorischer Aufwand realistisch abzuschätzen und in Relation zueinander zu bewerten, um fundierte Entscheidungen zur Umsetzung und Priorisierung treffen zu können. Die Ergebnisse dieser Überprüfungen basieren auf den vorab erstellten Auditberichten sowie der geforderten Eignungsprüfung."
                   }
                 ]
               },
               {
-                "id": "PERF.4.11",
+                "id": "PERF.3.11",
                 "title": "Bericht an die Institutionsleitung",
                 "class": "normal-SdT",
                 "props": [
@@ -5789,7 +5789,7 @@
                 ],
                 "params": [
                   {
-                    "id": "perf.4.11-prm1",
+                    "id": "perf.3.11-prm1",
                     "label": "regelmäßig",
                     "props": [
                       {
@@ -5801,7 +5801,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.4.11_stm",
+                    "id": "PERF.3.11_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5833,7 +5833,7 @@
                     "prose": "Monitoring-Evaluation MUSS die Institutionsleitung über den Stand des Managementsystems {{ insert: param, perf.4.11-prm1 }} anhand des Managementberichtes informieren."
                   },
                   {
-                    "id": "PERF.4.11_gdn",
+                    "id": "PERF.3.11_gdn",
                     "name": "guidance",
                     "prose": "Sinn und Zweck der Anforderung liegt darin, die Leitungsebene regelmäßig und nachvollziehbar über den Sicherheitsstatus sowie über wesentliche Entwicklungen zu informieren. Damit kann die Leitung faktenbasiert Entscheidungen treffen, Prioritäten setzen und Ressourcen zielgerichtet bereitstellen. Ohne einen solchen Bericht könnte ein kritisches Risiko unbemerkt bleiben oder verspätet adressiert werden, etwa wenn wiederholt unbefugte Zugriffe auf sensible Daten auftreten. Ein gut aufbereiteter Bericht kann hingegen Transparenz schaffen, Verantwortlichkeiten verdeutlichen und Vertrauen in die Steuerung der Institution fördern. Zur Umsetzung ist ein fester Rhythmus für die Erstellung des Managementberichts zu etablieren, etwa quartalsweise oder anlassbezogen nach einem schweren Vorfall. Der Bericht kann eine verdichtete Darstellung enthalten, zum Beispiel in Form von übersichtlichen Kennzahlen (Anzahl relevanter Vorfälle, Zeit bis zur Entdeckung, Erfüllungsgrad definierter Sicherheitsmaßnahmen) und Trendanalysen. Ergänzend kann eine einheitliche Vorlage genutzt werden, die eine klare Struktur vorgibt, sodass die Leitungsebene schnell die entscheidenden Punkte erkennt. Technisch kann dies durch den Einsatz gängiger Office-Tools unterstützt werden, etwa durch die Visualisierung von Trends in Diagrammen. Prozessual können Rückfragen und Diskussionen in einer kurzen Managementrunde eingeplant werden, um den reinen Informationsfluss zu einem aktiven Austausch zu machen."
                   }
@@ -5856,7 +5856,7 @@
             ],
             "controls": [
               {
-                "id": "PERF.5.1",
+                "id": "PERF.4.1",
                 "title": "Sicherheitsvorfälle",
                 "class": "normal-SdT",
                 "props": [
@@ -5877,7 +5877,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.5.1_stm",
+                    "id": "PERF.4.1_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5899,14 +5899,14 @@
                     "prose": "Monitoring-Evaluation MUSS ein Verfahren zur Erkennung von Sicherheitsvorfällen verankern."
                   },
                   {
-                    "id": "PERF.5.1_gdn",
+                    "id": "PERF.4.1_gdn",
                     "name": "guidance",
                     "prose": "Dieses Verfahren SOLL klare Meldewege, technische Überwachungsmechanismen (z. B. Log-Analyse, Intrusion Detection), Verantwortlichkeiten sowie Kriterien zur Klassifikation von Vorfällen enthalten. So wird gewährleistet, dass sicherheitsrelevante Ereignisse frühzeitig erkannt, bewertet und in den ISMS-Verbesserungsprozess eingebunden werden."
                   }
                 ]
               },
               {
-                "id": "PERF.5.2",
+                "id": "PERF.4.2",
                 "title": "Schwachstellen",
                 "class": "normal-SdT",
                 "props": [
@@ -5922,7 +5922,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.5.2_stm",
+                    "id": "PERF.4.2_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -5949,14 +5949,14 @@
                     "prose": "Monitoring-Evaluation MUSS ein Verfahren für den Umgang mit Schwachstellen unter Berücksichtigung des Risikos verankern."
                   },
                   {
-                    "id": "PERF.5.2_gdn",
+                    "id": "PERF.4.2_gdn",
                     "name": "guidance",
                     "prose": "Schwachstellen müssen systematisch erfasst, auf ihre sicherheitsrelevante Bedeutung geprüft und in die Risikoanalyse des ISMS übernommen werden. Daraus abgeleitete Maßnahmen sind zu priorisieren, umzusetzen und im Rahmen des Monitorings und der Evaluierung regelmäßig auf ihre Wirksamkeit hin zu überprüfen sowie zu dokumentieren."
                   }
                 ]
               },
               {
-                "id": "PERF.5.3",
+                "id": "PERF.4.3",
                 "title": "Risiken",
                 "class": "normal-SdT",
                 "props": [
@@ -5977,7 +5977,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.5.3_stm",
+                    "id": "PERF.4.3_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -6004,7 +6004,7 @@
                     "prose": "Monitoring-Evaluation MUSS ein Verfahren für Erfassung und die Reaktion auf aktuelle Risiken und ihre Berücksichtigung im Risikomanagement verankern."
                   },
                   {
-                    "id": "PERF.5.3_gdn",
+                    "id": "PERF.4.3_gdn",
                     "name": "guidance",
                     "prose": "Ein Verfahren zur Erfassung und Reaktion auf aktuelle Risiken im ISMS muss folgende Punkte sicherstellen: • Laufende Risikobeobachtung: Überwachung interner und externer Informationsquellen • Dokumentation neu erkannter Risiken: Erfassung in einem Risikoregister mit Beschreibung und Bewertung • Aktualisierung der Risikoanalyse: Einschätzung von Eintrittswahrscheinlichkeit und Schadenshöhe • Ableitung und Priorisierung von Maßnahmen: Festlegen geeigneter Gegenmaßnahmen mit Verantwortlichkeiten • Einbindung ins Risikomanagement: Integration der neuen Risiken in bestehende Prozesse • Rückmeldung an das Management: Regelmäßige Berichterstattung zur aktuellen Risikolage und Wirksamkeit der Maßnahmen"
                   }
@@ -6027,7 +6027,7 @@
             ],
             "controls": [
               {
-                "id": "PERF.6.1",
+                "id": "PERF.5.1",
                 "title": "Verifikation der Blaupausen",
                 "class": "normal-SdT",
                 "props": [
@@ -6048,7 +6048,7 @@
                 ],
                 "params": [
                   {
-                    "id": "perf.6.1-prm1",
+                    "id": "perf.5.1-prm1",
                     "label": "regelmäßig",
                     "props": [
                       {
@@ -6060,7 +6060,7 @@
                 ],
                 "parts": [
                   {
-                    "id": "PERF.6.1_stm",
+                    "id": "PERF.5.1_stm",
                     "name": "statement",
                     "props": [
                       {
@@ -6087,7 +6087,7 @@
                     "prose": "Monitoring-Evaluation SOLLTE die angewendete Blaupause im Hinblick auf die Berücksichtigung der relevanten Praktiken {{ insert: param, perf.6.1-prm1 }} überprüfen."
                   },
                   {
-                    "id": "PERF.6.1_gdn",
+                    "id": "PERF.5.1_gdn",
                     "name": "guidance",
                     "prose": "Die Blaupausen reduzieren den Aufwand, die Praktiken auszuwählen und die darin enthaltenen Anforderungen auf die eigenen Bedürfnisse zuzuschneiden. Die Blaupausen sind keine Garantie dafür, dass eine Institution alle relevanten Praktiken ausgewählt hat. Daher muss jede Institution nach Anwendung der Blaupausen eine Qualitätssicherung durchführen. Dies SOLL in Abstimmung mit den zuständigen Fachbereichen erfolgen."
                   }
