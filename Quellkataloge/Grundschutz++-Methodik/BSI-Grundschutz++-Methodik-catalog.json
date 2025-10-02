@@ -5263,7 +5263,7 @@
                         "ns": "https://github.com/Stand-der-Technik/Bibliothek/tree/main/Dokumentation/namespaces/modalverb.csv"
                       }
                     ],
-                    "prose": "Monitoring-Evaluation MUSS das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit {{ insert: param, perf.4.1-prm1 }} sowie anlassbezogen überprüfen."
+                    "prose": "Monitoring-Evaluation MUSS das ISMS der Institution hinsichtlich Eignung, Angemessenheit und Wirksamkeit {{ insert: param, perf.3.1-prm1 }} sowie anlassbezogen überprüfen."
                   },
                   {
                     "id": "PERF.3.1_gdn",
@@ -5830,7 +5830,7 @@
                         "ns": "https://github.com/Stand-der-Technik/Bibliothek/tree/main/Dokumentation/namespaces/modalverb.csv"
                       }
                     ],
-                    "prose": "Monitoring-Evaluation MUSS die Institutionsleitung über den Stand des Managementsystems {{ insert: param, perf.4.11-prm1 }} anhand des Managementberichtes informieren."
+                    "prose": "Monitoring-Evaluation MUSS die Institutionsleitung über den Stand des Managementsystems {{ insert: param, perf.3.11-prm1 }} anhand des Managementberichtes informieren."
                   },
                   {
                     "id": "PERF.3.11_gdn",
@@ -6084,7 +6084,7 @@
                         "ns": "https://github.com/Stand-der-Technik/Bibliothek/tree/main/Dokumentation/namespaces/modalverb.csv"
                       }
                     ],
-                    "prose": "Monitoring-Evaluation SOLLTE die angewendete Blaupause im Hinblick auf die Berücksichtigung der relevanten Praktiken {{ insert: param, perf.6.1-prm1 }} überprüfen."
+                    "prose": "Monitoring-Evaluation SOLLTE die angewendete Blaupause im Hinblick auf die Berücksichtigung der relevanten Praktiken {{ insert: param, perf.5.1-prm1 }} überprüfen."
                   },
                   {
                     "id": "PERF.5.1_gdn",
