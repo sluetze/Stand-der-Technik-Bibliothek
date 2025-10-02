@@ -45,7 +45,7 @@ Ein **OSCAL-Profile** dient dazu, Anforderungen aus einem oder mehreren Kataloge
 * **Spezifische Parameterwerte** festgelegt werden
 * **Metadaten wie Umsetzungshinweise oder Tags** modifiziert werden
 
-Beispielsweise könnten Mindeststandards oder Branchenspezifische Sicherheitsstandards bestimmte Anforderungen aus dem Kompendium des Grundschutz++ auswählen und diese um spezifischere, eigene Anforderungen aus einem eigenen Katalog ergänzen. Ein OSCAL Profile gewährleistet **Rückverfolgbarkeit**, da jede Anpassung auf den Originalkatalog zurückgeführt werden kann.
+Beispielsweise könnten Mindeststandards oder branchenspezifische Sicherheitsstandards bestimmte Anforderungen aus dem Kompendium des Grundschutz++ auswählen und diese um spezifischere, eigene Anforderungen aus einem eigenen Katalog ergänzen. Ein OSCAL-Profile gewährleistet **Rückverfolgbarkeit**, da jede Anpassung auf den Originalkatalog zurückgeführt werden kann.
 
 ### 3. Implementierungsebene (System-Sicherheitsplan und Komponenten)
 
@@ -166,7 +166,7 @@ back-matter:
 * **Teamarbeit:** Arbeiten Sie eng mit anderen Fachexperten zusammen – etwa aus den Bereichen Compliance, Implementierung und Audit – um ein möglichst praxisnahes und robustes OSCAL Profile zu erstellen.
 * **Prototyping:** Erstellen Sie zunächst eine erste Version (MVP) und lassen Sie diese von Stakeholdern validieren.
 * **Kontinuierliche Verbesserung:** Integrieren Sie Feedback, testen Sie regelmäßig und passen Sie den Katalog an neue Anforderungen und geänderte Sicherheitsstandards an.
-* **Automatisierung:** Integrieren Sie die OSCAL-Artefakte in automatisierte Prozesse, um bei jeder Änderung eine automatische Validierung und gegebenenfalls einen Deploymen
+* **Automatisierung:** Integrieren Sie die OSCAL-Artefakte in automatisierte Prozesse, um bei jeder Änderung eine automatische Validierung und gegebenenfalls einen Deployment-Vorgang durchzuführen.
 * **Skripte und Tools:** Nutzen Sie Skripte, um wiederkehrende Aufgaben (z. B. Formatierung, Validierung) zu automatisieren und so Fehler zu minimieren.
 
 ## Wie läuft die Erstellung eines OSCAL-Implementierungsplans (SSP) ab?
@@ -195,7 +195,7 @@ Für jede Kontrolle fügen Sie eine kurze Beschreibung der Umsetzung hinzu, inkl
 2. Verwenden Sie ein OSCAL-kompatibles Anzeigeprogramm oder wandeln Sie das Dokument in ein leserfreundliches Format (HTML, PDF, etc.) um, um den Inhalt zu prüfen.
 
 ## Welche Möglichkeiten bietet OSCAL für Unternehmen und Behörden?
-- Einfache Integration mit mit Compliance und Audit Tools: OSCAL-Daten können direkt in Sicherheitsmanagement-Tools eingebunden werden. Speziell in Deutschland arbeiten bereits zahlreiche [Hersteller von IT-Grundschutz-Tools](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/Alternative-IT-Grundschutztools/IT-Grundschutztools.html) an der Integration in ihre Software.
+- Einfache Integration mit Compliance- und Audit-Tools: OSCAL-Daten können direkt in Sicherheitsmanagement-Tools eingebunden werden. Speziell in Deutschland arbeiten bereits zahlreiche [Hersteller von IT-Grundschutz-Tools](https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Standards-und-Zertifizierung/IT-Grundschutz/IT-Grundschutz-Kompendium/Alternative-IT-Grundschutztools/IT-Grundschutztools.html) an der Integration in ihre Software.
 - Vereinfachte Berichterstattung: Compliance-Dokumentation kann automatisiert erstellt und aktualisiert werden.
   
 ## Weitere Informationen
