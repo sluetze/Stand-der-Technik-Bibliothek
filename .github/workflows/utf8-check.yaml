@@ -8,6 +8,7 @@ on:
 
 jobs:
   utf8-check:
+    timeout-minutes: 10
     runs-on: ubuntu-24.04
 
     steps:

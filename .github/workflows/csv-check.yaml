@@ -8,6 +8,7 @@ on:
 
 jobs:
   csv-rfc4180-check:
+    timeout-minutes: 10
     name: RFC4180 CSV Format Check
     runs-on: ubuntu-24.04
     steps:
