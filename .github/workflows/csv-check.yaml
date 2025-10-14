@@ -1,28 +1,20 @@
-name: CSV Compatibility Check
+name: CSV Lint
 
-on:
-  push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main, develop ]
+on: [push, pull_request]
 
 jobs:
-  csv-rfc4180-check:
+  lint:
     timeout-minutes: 10
-    name: RFC4180 CSV Format Check
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
         # checkout v5
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+        uses: actions/checkout@v4
 
-      - name: Set up Python
-        # setup-python v5
-        uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c
+      - name: Lint CSV files
+        # csvlinter-action v1.0.1
+        uses: csvlinter/csvlinter-action@eb248038c8222e82b83f9585233f308780c2147b
         with:
-          python-version: '3.14'
-
-      - name: Lint CSV files for RFC4180 compatibility
-        # check if the csv files are properly formatted
-        # this is just a small smoke test
-        run: ./Tools/check_csv.py
+          paths: 'Dokumentation/namespaces/*.csv'
+          csvlinter_version: 'v1.7.3'
+          delimiter: ';'
