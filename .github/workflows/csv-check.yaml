@@ -23,33 +23,6 @@ jobs:
           python-version: '3.14'
 
       - name: Lint CSV files for RFC4180 compatibility
-        run: |
-          python << 'EOF'
-          import sys
-          from pathlib import Path
-          import csv
-
-          repo_root = Path(".")
-          csv_files = [p for p in repo_root.rglob("*.csv")
-                        if not any(pattern in str(p) for pattern in ['.git', 'node_modules', '__pycache__'])]
-          error_files = {}
-          for csv_file in csv_files:
-              try:
-                  with open(csv_file, "r", encoding="utf-8", newline='') as f:
-                      reader = csv.reader(f)
-                      row_lengths = set()
-                      for lineno, row in enumerate(reader, start=1):
-                          row_lengths.add(len(row))
-                      if len(row_lengths) > 1:
-                          error_files[csv_file] = f"Inconsistent column count across rows: {sorted(row_lengths)}"
-              except Exception as e:
-                  error_files[csv_file] = f"Read error or invalid CSV: {e}"
-
-          if error_files:
-              print("Found CSV files incompatible with RFC4180 section 2:\n")
-              for f, err in error_files.items():
-                  print(f"  {f}: {err}")
-              sys.exit(1)
-          else:
-              print("All CSV files appear to be RFC4180 section 2 compatible!")
-          EOF
+        # check if the csv files are properly formatted
+        # this is just a small smoke test
+        run: ./Tools/check_csv.py
