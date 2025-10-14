@@ -27,7 +27,7 @@ jobs:
       # check if the files are properly utf8 encoded
       # this is just a check to make sure that we are not introducing non-utf8 files
       # because they will show up missformatted in
-      run: ./Tools/check_utf8_encoding.py
+      run: python3 ./Tools/check_utf8_encoding.py
 
     - name: Check for BOM in UTF-8 files
       # generally it is not recommended to have BOM in utf8 files
@@ -36,4 +36,4 @@ jobs:
       # this is just a check to make sure that we are not introducing BOM in new files
       if: always()
       continue-on-error: true
-      run: ./Tools/check_utf8_bom.py
+      run: python3 ./Tools/check_utf8_bom.py
