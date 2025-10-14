@@ -77,7 +77,7 @@ jobs:
                 '*.zip', '*.tar', '*.gz', '*.rar', '*.7z'
             }
 
-            print("🔍 Checking UTF-8 encoding for all text files...")
+            print("Checking UTF-8 encoding for all text files...")
             print("=" * 60)
 
             for file_path in repo_root.rglob('*'):
@@ -121,6 +121,7 @@ jobs:
         EOF
 
     - name: Check for BOM in UTF-8 files
+      if: always()
       run: |
         python << 'EOF'
         import os
