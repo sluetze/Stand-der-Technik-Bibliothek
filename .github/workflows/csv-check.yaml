@@ -18,3 +18,11 @@ jobs:
           paths: 'Dokumentation/namespaces/*.csv'
           csvlinter_version: 'v1.7.3'
           delimiter: ';'
+
+      - name: find run.sh
+        if: always()
+        run: find . -name "run.sh"
+
+      - name: list directories
+        if: always()
+        run: ls -la
