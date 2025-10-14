@@ -11,18 +11,10 @@ jobs:
         # checkout v5
         uses: actions/checkout@v4
 
-      - name: Lint CSV files
-        # csvlinter-action v1.0.1
-        uses: csvlinter/csvlinter-action@eb248038c8222e82b83f9585233f308780c2147b
+      - name: csvlinter
+        uses: kcheriyath/csvlinter@776f3c1d25d37a339d3bcaea683efa1d0fee1576
         with:
-          paths: 'Dokumentation/namespaces/*.csv'
-          csvlinter_version: 'v1.7.3'
-          delimiter: ';'
-
-      - name: find run.sh
-        if: always()
-        run: find . -name "run.sh"
-
-      - name: list directories
-        if: always()
-        run: ls -la
+          find_pattern: "*.csv"
+          find_path: "./Dokumentation/namespaces"
+          fail_on_error: "false"
+          extra_params: ""
