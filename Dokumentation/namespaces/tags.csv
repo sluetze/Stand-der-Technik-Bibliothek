@@ -1,44 +1,44 @@
-Tag;Bedeutung
-Zero Trust;Ein Sicherheitskonzept, das davon ausgeht, dass keine Entität (Benutzer oder Gerät) standardmäßig vertrauenswürdig ist, unabhängig davon, ob sie sich innerhalb oder außerhalb des Netzwerks befindet. Jeder Zugriff muss verifiziert werden.
-Advanced Persistent Threat (APT);Eine komplexe, langfristige Cyberangriffsform, bei der ein Angreifer unauthorisierten Zugriff auf ein Netzwerk erhält und über einen längeren Zeitraum unentdeckt bleibt, um sensible Daten zu stehlen oder Infrastruktur zu beschädigen.
-Lateral Movement;Die Technik, mit der sich Angreifer nach dem ersten Zugriff innerhalb eines Netzwerks horizontal bewegen, um weitere Systeme zu kompromittieren und höhere Zugriffsrechte zu erlangen.
-Inventories;Systematische Verzeichnisse aller IT-Assets (Hardware, Software, Daten) einer Organisation, die für effektives Risikomanagement und Sicherheitskontrolle unerlässlich sind.
-Separation of Concerns;Designprinzip in der Softwareentwicklung und IT-Architektur, bei dem verschiedene Funktionen oder Verantwortlichkeiten voneinander getrennt werden, um Komplexität zu reduzieren und Sicherheit zu erhöhen.
-Internet Exposure;Das Ausmaß, in dem Systeme, Dienste oder Informationen über das Internet zugänglich sind und potenziell Angriffsfläche für Bedrohungen bieten.
-Command & Control;Die Infrastruktur und Kommunikationskanäle, die von Angreifern verwendet werden, um mit kompromittierten Systemen zu kommunizieren und diese fernzusteuern.
-Network Access Control;Sicherheitslösung, die reguliert, welche Geräte Zugriff auf ein Netzwerk erhalten, basierend auf Authentifizierung, Autorisierung und Gerätekonformität.
-Rogue Access Point;Ein nicht autorisierter WLAN-Zugangspunkt, der an ein Unternehmensnetzwerk angeschlossen ist und ein Sicherheitsrisiko darstellt, da er den Umgehung von Sicherheitsmaßnahmen ermöglichen kann.
-Automatische Sicherheitsrichtlinie;Mechanismen, die Sicherheitsregeln und -richtlinien automatisch durchsetzen, ohne menschliches Eingreifen, um konsistente Sicherheitsstandards zu gewährleisten.
-Defense-in-depth;Sicherheitsstrategie, die mehrere Verteidigungsschichten verwendet, um Systeme und Daten zu schützen, sodass beim Versagen einer Schicht weitere Sicherheitsbarrieren bestehen bleiben.
-VPN;Virtual Private Network, eine Technologie, die eine sichere, verschlüsselte Verbindung über ein öffentliches Netzwerk (meist das Internet) herstellt, um vertrauliche Datenübertragungen zu schützen.
-Hochverfügbarkeit;Systemeigenschaft, die sicherstellt, dass ein Dienst kontinuierlich verfügbar ist, mit minimalen oder keinen Ausfallzeiten, oft durch Redundanz und Failover-Mechanismen erreicht.
-Failover;Automatischer Prozess, bei dem ein System bei Ausfall auf ein Backup- oder redundantes System umschaltet, um die Kontinuität des Betriebs zu gewährleisten.
-PSTN;Public Switched Telephone Network, das traditionelle Telefonnetz, das aus Kupferkabeln besteht und Sprachkommunikation durch Schaltkreise vermittelt.
-DDoS;Distributed Denial of Service, ein Angriff, bei dem mehrere kompromittierte Systeme einen gezielten Server, Dienst oder eine Infrastruktur mit Anfragen überfluten, um ihn zu überlasten und nicht mehr verfügbar zu machen.
-Löschen und Vernichten;Prozesse zur dauerhaften Entfernung von Daten von Speichermedien, um sicherzustellen, dass sie nicht wiederhergestellt werden können, oft mit physischer Zerstörung kombiniert.
-Insider Threat;Sicherheitsrisiko, das von Personen innerhalb einer Organisation ausgeht, die aufgrund ihres legitimen Zugriffs sensible Informationen missbrauchen oder Systeme schädigen können.
-Shoulder Surfing;Eine physische Angriffsmethode, bei der ein Angreifer durch Beobachten über die Schulter Informationen wie Passwörter oder PINs ausspäht.
-Physical Access Control;Maßnahmen und Systeme zur Kontrolle des physischen Zugangs zu Gebäuden, Räumlichkeiten oder IT-Ressourcen, um unbefugten Zugriff zu verhindern.
-Bring Your Own Device;Unternehmensrichtlinie, die es Mitarbeitern erlaubt, persönliche Geräte (Smartphones, Laptops) für Arbeitszwecke zu nutzen, was besondere Sicherheitsherausforderungen mit sich bringt.
-Kompetenz;Die Fähigkeit, Wissen und Fertigkeiten effektiv einzusetzen, um bestimmte Aufgaben zu erfüllen, oft mit einer nachweisbaren Befähigung verbunden.
-Shadow IT;IT-Systeme, -Geräte, -Software oder -Dienste, die ohne explizite Genehmigung der IT-Abteilung in einem Unternehmen verwendet werden und potenzielle Sicherheitsrisiken darstellen.
-Security by Design;Ansatz in der Softwareentwicklung und Systemarchitektur, bei dem Sicherheitsaspekte von Beginn des Entwicklungsprozesses an integriert werden, anstatt sie nachträglich hinzuzufügen.
-Replay Attacks;Angriffsmethode, bei der gültige Datenübertragungen abgefangen und wiederholt werden, um sich unbefugten Zugriff zu verschaffen oder Transaktionen zu duplizieren.
-Session Hijacking;Attacke, bei der ein Angreifer eine aktive Computersitzung übernimmt, indem er die eindeutige Sitzungs-ID abfängt, um sich als der authentifizierte Benutzer auszugeben.
-Error Handling;Prozesse zur Identifizierung, Protokollierung und Behebung von Fehlern in Softwareanwendungen, ohne sensible Informationen preiszugeben oder Systemstabilität zu gefährden.
-Cryptography;Wissenschaft der Verschlüsselung von Informationen, um sie vor unbefugtem Zugriff zu schützen und sichere Kommunikation zu ermöglichen.
-Lieferketten;Netzwerk von Organisationen, Menschen und Prozessen, die an der Produktion und Bereitstellung von Produkten oder Dienstleistungen beteiligt sind, einschließlich der damit verbundenen Sicherheitsrisiken.
-Secure Compiling Practices;Methoden und Richtlinien zur Erstellung von Software unter Berücksichtigung von Sicherheitsaspekten während des Kompilierungsprozesses, um Schwachstellen im Binärcode zu vermeiden.
-Change Management;Strukturierter Ansatz zur Durchführung von Änderungen an IT-Systemen, der die Auswirkungen auf den Betrieb und die Sicherheit minimiert und dokumentiert.
-Security by Default;Prinzip, bei dem die sichersten Einstellungen als Standardkonfiguration verwendet werden, sodass Benutzer keine zusätzlichen Maßnahmen ergreifen müssen, um Sicherheit zu gewährleisten.
-Data Leak;Unbeabsichtigte oder unbefugte Offenlegung sensibler Informationen, die zu Datenverlust, Reputationsschäden oder rechtlichen Konsequenzen führen kann.
-BCM;Business Continuity Management, ein Rahmenwerk von Prozessen zur Identifizierung potenzieller Bedrohungen und deren Auswirkungen auf den Geschäftsbetrieb, um Resilienz und Wiederherstellungsfähigkeit zu gewährleisten.
-MFA;Multi-Faktor-Authentifizierung, ein Sicherheitsverfahren, das mindestens zwei unterschiedliche Authentifizierungsfaktoren (Wissen, Besitz, Inhärenz) erfordert, um Identitäten zuverlässiger zu verifizieren.
-Living off the land;Angriffstechnik, bei der legitime, bereits im System vorhandene Tools und Prozesse für böswillige Zwecke genutzt werden, um Erkennung zu erschweren.
-Credential Stuffing;Cyberangriff, bei dem automatisiert gestohlene Benutzernamen und Passwörter auf verschiedenen Websites ausprobiert werden, um von Passwortwiederverwendung zu profitieren.
-Pentest;Penetrationstest, eine autorisierte Simulation eines Cyberangriffs auf ein Computersystem, um Sicherheitslücken zu identifizieren und zu beheben, bevor sie ausgenutzt werden können.
-Automatic Session Locking;Sicherheitsfunktion, die eine Benutzersitzung nach einer festgelegten Inaktivitätszeit automatisch sperrt, um unbefugten Zugriff zu verhindern.
-Recon;Abkürzung für Reconnaissance, die Phase eines Cyberangriffs, in der Informationen über potenzielle Ziele gesammelt werden, um Schwachstellen zu identifizieren.
-Denial of Service;Angriff, der darauf abzielt, ein System, einen Dienst oder eine Ressource für legitime Benutzer unzugänglich zu machen, indem Ressourcen erschöpft oder Kommunikationswege blockiert werden.
-Auslandsreisen;Aufenthalte außerhalb des Heimat- bzw. Wohnsitzlandes der beschäftigten Person, bei denen Informationen und Assets aus dem Informationsverbund verwendet werden. Dazu zählen sowohl vorübergehende Arbeitsaufenthalte an Standorten der eigenen Institution oder bei Geschäftspartnern als auch die Erbringung mobiler Arbeit von beliebigen Orten im Ausland. Wesentlich ist dabei, dass die Tätigkeit grenzüberschreitend ausgeübt wird und dadurch rechtliche, steuerliche sowie arbeits- und sozialversicherungsrechtliche Rahmenbedingungen anderer Staaten berührt werden könnten.
-Brute Force Angriffe;
+Tag,Bedeutung
+Zero Trust,"Ein Sicherheitskonzept, das davon ausgeht, dass keine EntitÃ¤t (Benutzer oder GerÃ¤t) standardmÃ¤ÃŸig vertrauenswÃ¼rdig ist, unabhÃ¤ngig davon, ob sie sich innerhalb oder auÃŸerhalb des Netzwerks befindet. Jeder Zugriff muss verifiziert werden."
+Advanced Persistent Threat (APT),"Eine komplexe, langfristige Cyberangriffsform, bei der ein Angreifer unauthorisierten Zugriff auf ein Netzwerk erhÃ¤lt und Ã¼ber einen lÃ¤ngeren Zeitraum unentdeckt bleibt, um sensible Daten zu stehlen oder Infrastruktur zu beschÃ¤digen."
+Lateral Movement,"Die Technik, mit der sich Angreifer nach dem ersten Zugriff innerhalb eines Netzwerks horizontal bewegen, um weitere Systeme zu kompromittieren und hÃ¶here Zugriffsrechte zu erlangen."
+Inventories,"Systematische Verzeichnisse aller IT-Assets (Hardware, Software, Daten) einer Organisation, die fÃ¼r effektives Risikomanagement und Sicherheitskontrolle unerlÃ¤sslich sind."
+Separation of Concerns,"Designprinzip in der Softwareentwicklung und IT-Architektur, bei dem verschiedene Funktionen oder Verantwortlichkeiten voneinander getrennt werden, um KomplexitÃ¤t zu reduzieren und Sicherheit zu erhÃ¶hen."
+Internet Exposure,"Das AusmaÃŸ, in dem Systeme, Dienste oder Informationen Ã¼ber das Internet zugÃ¤nglich sind und potenziell AngriffsflÃ¤che fÃ¼r Bedrohungen bieten."
+Command & Control,"Die Infrastruktur und KommunikationskanÃ¤le, die von Angreifern verwendet werden, um mit kompromittierten Systemen zu kommunizieren und diese fernzusteuern."
+Network Access Control,"SicherheitslÃ¶sung, die reguliert, welche GerÃ¤te Zugriff auf ein Netzwerk erhalten, basierend auf Authentifizierung, Autorisierung und GerÃ¤tekonformitÃ¤t."
+Rogue Access Point,"Ein nicht autorisierter WLAN-Zugangspunkt, der an ein Unternehmensnetzwerk angeschlossen ist und ein Sicherheitsrisiko darstellt, da er den Umgehung von SicherheitsmaÃŸnahmen ermÃ¶glichen kann."
+Automatische Sicherheitsrichtlinie,"Mechanismen, die Sicherheitsregeln und -richtlinien automatisch durchsetzen, ohne menschliches Eingreifen, um konsistente Sicherheitsstandards zu gewÃ¤hrleisten."
+Defense-in-depth,"Sicherheitsstrategie, die mehrere Verteidigungsschichten verwendet, um Systeme und Daten zu schÃ¼tzen, sodass beim Versagen einer Schicht weitere Sicherheitsbarrieren bestehen bleiben."
+VPN,"Virtual Private Network, eine Technologie, die eine sichere, verschlÃ¼sselte Verbindung Ã¼ber ein Ã¶ffentliches Netzwerk (meist das Internet) herstellt, um vertrauliche DatenÃ¼bertragungen zu schÃ¼tzen."
+HochverfÃ¼gbarkeit,"Systemeigenschaft, die sicherstellt, dass ein Dienst kontinuierlich verfÃ¼gbar ist, mit minimalen oder keinen Ausfallzeiten, oft durch Redundanz und Failover-Mechanismen erreicht."
+Failover,"Automatischer Prozess, bei dem ein System bei Ausfall auf ein Backup- oder redundantes System umschaltet, um die KontinuitÃ¤t des Betriebs zu gewÃ¤hrleisten."
+PSTN,"Public Switched Telephone Network, das traditionelle Telefonnetz, das aus Kupferkabeln besteht und Sprachkommunikation durch Schaltkreise vermittelt."
+DDoS,"Distributed Denial of Service, ein Angriff, bei dem mehrere kompromittierte Systeme einen gezielten Server, Dienst oder eine Infrastruktur mit Anfragen Ã¼berfluten, um ihn zu Ã¼berlasten und nicht mehr verfÃ¼gbar zu machen."
+LÃ¶schen und Vernichten,"Prozesse zur dauerhaften Entfernung von Daten von Speichermedien, um sicherzustellen, dass sie nicht wiederhergestellt werden kÃ¶nnen, oft mit physischer ZerstÃ¶rung kombiniert."
+Insider Threat,"Sicherheitsrisiko, das von Personen innerhalb einer Organisation ausgeht, die aufgrund ihres legitimen Zugriffs sensible Informationen missbrauchen oder Systeme schÃ¤digen kÃ¶nnen."
+Shoulder Surfing,"Eine physische Angriffsmethode, bei der ein Angreifer durch Beobachten Ã¼ber die Schulter Informationen wie PasswÃ¶rter oder PINs ausspÃ¤ht."
+Physical Access Control,"MaÃŸnahmen und Systeme zur Kontrolle des physischen Zugangs zu GebÃ¤uden, RÃ¤umlichkeiten oder IT-Ressourcen, um unbefugten Zugriff zu verhindern."
+Bring Your Own Device,"Unternehmensrichtlinie, die es Mitarbeitern erlaubt, persÃ¶nliche GerÃ¤te (Smartphones, Laptops) fÃ¼r Arbeitszwecke zu nutzen, was besondere Sicherheitsherausforderungen mit sich bringt."
+Kompetenz,"Die FÃ¤higkeit, Wissen und Fertigkeiten effektiv einzusetzen, um bestimmte Aufgaben zu erfÃ¼llen, oft mit einer nachweisbaren BefÃ¤higung verbunden."
+Shadow IT,"IT-Systeme, -GerÃ¤te, -Software oder -Dienste, die ohne explizite Genehmigung der IT-Abteilung in einem Unternehmen verwendet werden und potenzielle Sicherheitsrisiken darstellen."
+Security by Design,"Ansatz in der Softwareentwicklung und Systemarchitektur, bei dem Sicherheitsaspekte von Beginn des Entwicklungsprozesses an integriert werden, anstatt sie nachtrÃ¤glich hinzuzufÃ¼gen."
+Replay Attacks,"Angriffsmethode, bei der gÃ¼ltige DatenÃ¼bertragungen abgefangen und wiederholt werden, um sich unbefugten Zugriff zu verschaffen oder Transaktionen zu duplizieren."
+Session Hijacking,"Attacke, bei der ein Angreifer eine aktive Computersitzung Ã¼bernimmt, indem er die eindeutige Sitzungs-ID abfÃ¤ngt, um sich als der authentifizierte Benutzer auszugeben."
+Error Handling,"Prozesse zur Identifizierung, Protokollierung und Behebung von Fehlern in Softwareanwendungen, ohne sensible Informationen preiszugeben oder SystemstabilitÃ¤t zu gefÃ¤hrden."
+Cryptography,"Wissenschaft der VerschlÃ¼sselung von Informationen, um sie vor unbefugtem Zugriff zu schÃ¼tzen und sichere Kommunikation zu ermÃ¶glichen."
+Lieferketten,"Netzwerk von Organisationen, Menschen und Prozessen, die an der Produktion und Bereitstellung von Produkten oder Dienstleistungen beteiligt sind, einschlieÃŸlich der damit verbundenen Sicherheitsrisiken."
+Secure Compiling Practices,"Methoden und Richtlinien zur Erstellung von Software unter BerÃ¼cksichtigung von Sicherheitsaspekten wÃ¤hrend des Kompilierungsprozesses, um Schwachstellen im BinÃ¤rcode zu vermeiden."
+Change Management,"Strukturierter Ansatz zur DurchfÃ¼hrung von Ã„nderungen an IT-Systemen, der die Auswirkungen auf den Betrieb und die Sicherheit minimiert und dokumentiert."
+Security by Default,"Prinzip, bei dem die sichersten Einstellungen als Standardkonfiguration verwendet werden, sodass Benutzer keine zusÃ¤tzlichen MaÃŸnahmen ergreifen mÃ¼ssen, um Sicherheit zu gewÃ¤hrleisten."
+Data Leak,"Unbeabsichtigte oder unbefugte Offenlegung sensibler Informationen, die zu Datenverlust, ReputationsschÃ¤den oder rechtlichen Konsequenzen fÃ¼hren kann."
+BCM,"Business Continuity Management, ein Rahmenwerk von Prozessen zur Identifizierung potenzieller Bedrohungen und deren Auswirkungen auf den GeschÃ¤ftsbetrieb, um Resilienz und WiederherstellungsfÃ¤higkeit zu gewÃ¤hrleisten."
+MFA,"Multi-Faktor-Authentifizierung, ein Sicherheitsverfahren, das mindestens zwei unterschiedliche Authentifizierungsfaktoren (Wissen, Besitz, InhÃ¤renz) erfordert, um IdentitÃ¤ten zuverlÃ¤ssiger zu verifizieren."
+Living off the land,"Angriffstechnik, bei der legitime, bereits im System vorhandene Tools und Prozesse fÃ¼r bÃ¶swillige Zwecke genutzt werden, um Erkennung zu erschweren."
+Credential Stuffing,"Cyberangriff, bei dem automatisiert gestohlene Benutzernamen und PasswÃ¶rter auf verschiedenen Websites ausprobiert werden, um von Passwortwiederverwendung zu profitieren."
+Pentest,"Penetrationstest, eine autorisierte Simulation eines Cyberangriffs auf ein Computersystem, um SicherheitslÃ¼cken zu identifizieren und zu beheben, bevor sie ausgenutzt werden kÃ¶nnen."
+Automatic Session Locking,"Sicherheitsfunktion, die eine Benutzersitzung nach einer festgelegten InaktivitÃ¤tszeit automatisch sperrt, um unbefugten Zugriff zu verhindern."
+Recon,"AbkÃ¼rzung fÃ¼r Reconnaissance, die Phase eines Cyberangriffs, in der Informationen Ã¼ber potenzielle Ziele gesammelt werden, um Schwachstellen zu identifizieren."
+Denial of Service,"Angriff, der darauf abzielt, ein System, einen Dienst oder eine Ressource fÃ¼r legitime Benutzer unzugÃ¤nglich zu machen, indem Ressourcen erschÃ¶pft oder Kommunikationswege blockiert werden."
+Auslandsreisen,"Aufenthalte auÃŸerhalb des Heimat- bzw. Wohnsitzlandes der beschÃ¤ftigten Person, bei denen Informationen und Assets aus dem Informationsverbund verwendet werden. Dazu zÃ¤hlen sowohl vorÃ¼bergehende Arbeitsaufenthalte an Standorten der eigenen Institution oder bei GeschÃ¤ftspartnern als auch die Erbringung mobiler Arbeit von beliebigen Orten im Ausland. Wesentlich ist dabei, dass die TÃ¤tigkeit grenzÃ¼berschreitend ausgeÃ¼bt wird und dadurch rechtliche, steuerliche sowie arbeits- und sozialversicherungsrechtliche Rahmenbedingungen anderer Staaten berÃ¼hrt werden kÃ¶nnten."
+Brute Force Angriffe,
