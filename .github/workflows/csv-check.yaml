@@ -1,0 +1,20 @@
+name: CSV Lint
+
+on: [push, pull_request]
+
+jobs:
+  lint:
+    timeout-minutes: 10
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        # checkout v5
+        uses: actions/checkout@v4
+
+      - name: csvlinter
+        uses: kcheriyath/csvlinter@776f3c1d25d37a339d3bcaea683efa1d0fee1576
+        with:
+          find_pattern: "*.csv"
+          find_path: "./Dokumentation/namespaces"
+          fail_on_error: "false"
+          extra_params: ""
