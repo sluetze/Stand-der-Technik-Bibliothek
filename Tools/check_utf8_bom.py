@@ -16,9 +16,9 @@ def main():
 
     # Text file extensions
     text_extensions = {
-        '.md', '.txt', '.csv', '.json', '.xml', '.yaml', '.yml',
-        '.py', '.js', '.ts', '.html', '.css', '.scss', '.sql',
-        '.sh', '.bat', '.ps1', '.cfg', '.conf', '.ini', '.toml'
+        '.bat', '.cfg', '.conf', '.css', '.csv', '.html', '.ini', '.js',
+        '.json', '.md', '.ps1', '.py', '.scss', '.sh', '.sql', '.toml',
+        '.ts', '.txt', '.xml', '.yaml', '.yml'
     }
 
     print("Checking for UTF-8 BOM in text files...")

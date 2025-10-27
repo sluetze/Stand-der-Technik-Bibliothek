@@ -6,10 +6,9 @@ from pathlib import Path
 def is_text_file(file_path):
     """Check if file is likely a text file based on extension"""
     text_extensions = {
-        '.md', '.txt', '.csv', '.json', '.xml', '.yaml', '.yml',
-        '.py', '.js', '.ts', '.html', '.css', '.scss', '.sql',
-        '.sh', '.bat', '.ps1', '.cfg', '.conf', '.ini', '.toml',
-        '.gitignore', '.gitattributes', '.editorconfig'
+        '.bat', '.cfg', '.conf', '.css', '.csv', '.html', '.ini', '.js',
+        '.json', '.md', '.ps1', '.py', '.scss', '.sh', '.sql', '.toml',
+        '.ts', '.txt', '.xml', '.yaml', '.yml'
     }
     return file_path.suffix.lower() in text_extensions
 
@@ -41,11 +40,10 @@ def main():
 
     # Files to exclude from checking
     exclude_patterns = {
-        '.git', 'node_modules', '__pycache__', '.pytest_cache',
-        '.venv', 'venv', 'env', '.env', 'dist', 'build',
-        '.coverage', '*.pyc', '*.pyo', '*.pyd', '*.so',
-        '*.dll', '*.exe', '*.bin', '*.dmg', '*.pkg',
-        '*.zip', '*.tar', '*.gz', '*.rar', '*.7z'
+        '*.7z', '*.bin', '*.dmg', '*.dll', '*.exe', '*.gz', '*.pyd',
+        '*.pyc', '*.pyo', '*.pkg', '*.rar', '*.so', '*.tar', '*.zip',
+        '.coverage', '.env', '.git', '.pytest_cache', '.venv',
+        '__pycache__', 'build', 'dist', 'env', 'node_modules', 'venv'
     }
 
     print("Checking UTF-8 encoding for all text files...")
