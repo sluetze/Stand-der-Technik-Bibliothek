@@ -39,7 +39,8 @@ def main():
         print(f"\nFound {len(bom_files)} files with UTF-8 BOM:")
         for file_path in bom_files:
             print(f"  - {file_path}")
-        print("\nBOM is generally not recommended for text files.")
+        print("\n According to the Unicode Standard, BOM is generally neither required norrecommended for text files.")
+        print(" see https://www.unicode.org/versions/Unicode5.0.0/ch02.pdf Page 36 for more information.")
         print("   To remove BOM, you can use:")
         print("   - sed -i '1s/^\xEF\xBB\xBF//' <file>")
         print("   - Or configure your editor to save without BOM")
