@@ -1,12 +1,13 @@
 import os
 from pathlib import Path
+from codecs import BOM_UTF8
 
 def has_bom(file_path):
     """Check if file has UTF-8 BOM"""
     try:
         with open(file_path, 'rb') as f:
             first_bytes = f.read(3)
-            return first_bytes == b'\xef\xbb\xbf'
+            return first_bytes == BOM_UTF8
     except:
         return False
 
