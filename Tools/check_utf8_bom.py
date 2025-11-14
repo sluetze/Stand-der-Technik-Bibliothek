@@ -40,11 +40,16 @@ def main():
         print(f"\nFound {len(bom_files)} files with UTF-8 BOM:")
         for file_path in bom_files:
             print(f"  - {file_path}")
-        print("\n According to the Unicode Standard, BOM is generally neither required nor recommended for text files.")
-        print(" See https://www.unicode.org/versions/Unicode5.0.0/ch02.pdf Page 36 for more information.")
-        print("   To remove BOM, you can use:")
-        print("   - sed -i '1s/^\xEF\xBB\xBF//' <file>")
-        print("   - Or configure your editor to save without BOM")
+        # Software developers:
+        # If consuming UTF-8, recognize and discard a BOM.
+        # If producing UTF-8, include a BOM only if explicitly directed to do so, or if a BOM is known to be required by a protocol.
+        # Text authors:
+        # Do not use U+FEFF to function as a zero width no-break space character; use U+2060 WORD JOINER instead.
+        # Include a BOM if one is known to be required by a targeted protocol.
+        # Otherwise, include a BOM when authoring a UTF-8 text file that contains non-ASCII characters, is not targeting a specific protocol, but which may be opened by applications that will not assume UTF-8 by default. (This is useful on systems like Microsoft Windows where some applications assume text files to be encoded with the Active Code Page.)
+        # Otherwise, do not include a BOM.
+        # Source: https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-23/#G23824
+        # Source: https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-2/#G19274
         # Don't fail the build for BOM, just warn
     else:
         print("No UTF-8 BOM found in text files!")

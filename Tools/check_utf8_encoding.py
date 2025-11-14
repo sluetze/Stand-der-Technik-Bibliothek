@@ -76,10 +76,6 @@ def main():
         print(f"\nFound {len(non_utf8_files)} files with non-UTF-8 encoding:")
         for file_path, message in non_utf8_files:
             print(f"  - {file_path}: {message}")
-        print("\nTo fix encoding issues:")
-        print("  1. Convert files to UTF-8 using your text editor")
-        print("  2. Or use: iconv -f <current-encoding> -t utf-8 <file> > <new-file>")
-        print("  3. Or use: recode <current-encoding>..utf8 <file>")
         sys.exit(1)
     else:
         print("All text files are properly UTF-8 encoded!")
